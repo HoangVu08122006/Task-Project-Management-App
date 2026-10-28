@@ -1,0 +1,27 @@
+# VS Code history
+.history/
+.vscode/
+.idea/
+
+# Laravel
+/backend/.env
+/backend/.env.*
+!/backend/.env.example
+/backend/vendor/
+/backend/node_modules/
+/backend/storage/*.key
+/backend/public/build/
+
+# React
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+.DS_Store
